@@ -33,7 +33,7 @@ After=multi-user.target
 Type=simple
 Restart=always
 RestartSec=5
-ExecStart=/usr/bin/python3 /home/user/software_python/readfreq_influxdb.py
+ExecStart=/usr/bin/python3 -u /home/user/software_python/readfreq_influxdb.py
 StandardOutput=syslog
 StandardError=syslog
 
