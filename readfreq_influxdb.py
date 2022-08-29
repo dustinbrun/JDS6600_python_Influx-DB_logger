@@ -7,7 +7,7 @@ from influxdb import InfluxDBClient
 from datetime import datetime
 import influxdb_config
 
-print("-----------------JDS6600-Reader-----------------")
+print("------------------JDS6600-Reader------------------")
 print("Searching Device ...")
 
 found_ports = [
